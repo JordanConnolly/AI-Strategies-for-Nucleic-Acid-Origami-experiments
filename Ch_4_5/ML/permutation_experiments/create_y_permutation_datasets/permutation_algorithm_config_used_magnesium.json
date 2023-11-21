@@ -1,0 +1,20 @@
+{
+
+   "ml_hyper_params":
+
+   [
+
+       {
+
+           "description": "magnesium_predictor_set_2_permutation_protocol_params",
+           "dataset_filename": "/y_permutation_magnesium_experiment_1_dataset.csv",
+           "splits": 3,
+           "experiment_name": "Extra_Trees_RFE_3CV_Stratified_Permutation",
+           "predictor": "Magnesium (mM)",
+           "scoring": "r2"
+
+       }
+
+   ]
+
+}

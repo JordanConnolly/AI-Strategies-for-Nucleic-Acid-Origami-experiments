@@ -1,0 +1,10 @@
+{
+   "ml_hyper_params": [
+      {
+         "id": 1,
+         "description": "ETR_full_dataset_magnesium_3CV",
+         "origami_dataset_filename": ".csv",
+         "storage_path": "/extra_trees_results/",      }
+   ]
+}
+

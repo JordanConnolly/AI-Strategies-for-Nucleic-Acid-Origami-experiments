@@ -1,0 +1,150 @@
+staples:
+  - staple_number: 1
+    sequence: GCTAGACTCGTAGCCGTTAGCGAGCTAGACTC
+    length: 32
+    sections: 3
+    section lengths: 8;16;8
+    scaffold domains respective staple sections hybridise to: 91; 94; 102
+    scaffold bases respective staple bases hybridise to: 1212; 1211; 1210; 1209; ...etc
+
+  - staple_number: 2
+    sequence: TTGCTACCGAGTGCGCACCTCGGTGTGTTCGTGATCACCGACCTAGGGG
+    length: 48
+    sections: 2
+    section lengths: 8;40
+    scaffold domains respective staple sections hybridise to: 95; 90
+    scaffold bases respective staple bases hybridise to: 1286; 1285; 1284; 1283; ...etc
+
+marked_staples:
+  - staple_number: 3
+    sequence: TTACGCTCGAGCTCGTAGCTAGGCGTACGCGTTGATACGTAGACGTAGC
+    length: 48
+    modification: Poly-T (4 bases)
+    purpose_description: Purpose of Modification 3 (Poly-T for blocking)
+    sections: 3
+    section lengths: 24;16;8
+    scaffold domains respective staple sections hybridise to: 89; 84; 80
+    scaffold bases respective staple bases hybridise to: 1164; 1163; 1162; 1161; ...etc
+
+  - staple_number: 4
+    sequence: TGGACTAGGCTAGACGTAGCGTACTGCTAGAC
+    length: 12
+    location_on_scaffold: end
+    modification: Poly-C (4 bases)
+    purpose_description: Purpose of Modification 4 (Poly-C for blocking)
+    sections: 2
+    section lengths: 8;16;8
+    scaffold domains respective staple sections hybridise to: 85; 88
+    scaffold bases respective staple bases hybridise to: 1074; 1073; 1072; 1071; ...etc
+
+experiment_details:
+  - experimental_condition: Experiment Number
+    value: 1
+
+  - experimental_condition: Paper DOI
+    value: DOI:1111.11
+
+  - experimental_condition: Scaffold Name
+    value: m13mp19
+
+  - experimental_condition: Scaffold Length (bases)
+    value: 7309
+
+  - experimental_condition: Shape Name
+    value: Square
+
+  - experimental_condition: Experiment Type
+    value: Shape
+
+  - experimental_condition: Structure Dimension
+    value: 2
+
+  - experimental_condition: Yield (%)
+    value: 80
+
+  - experimental_condition: Appl Yield (%)
+    value: 85
+
+  - experimental_condition: Characterised By
+    value: 
+    - Atomic Force Microscope
+    - Gel Electrophoresis
+
+  - experimental_condition: Constructed By
+    value: one-pot
+
+  - experimental_condition: Thermal Profile
+    value: Stepwise
+
+  - experimental_condition: Temperature Ramp (s)
+    value: 6000
+
+  - experimental_condition: Stepwise Detail
+    value: |
+    Step 1: Heat in Thermocycler for 5 minutes at 95oC.
+    Step 2: Decrease by 10oC every minute for 5 minutes.
+    Step 3: Incubate at 37°C.
+
+  - experimental_condition: Thermo-cycler
+    value: Model ZYX789
+
+  - experimental_condition: Peak Temperature (oC)
+    value: 95
+
+  - experimental_condition: Base Temperature (oC)
+    value: 37
+
+  - experimental_condition: Scaffold Molarity (nM)
+    value: 100
+
+  - experimental_condition: Staple Molarity (nM)
+    value: 20
+
+  - experimental_condition: Scaffold to Staple Ratio
+    value: 5:1
+
+  - experimental_condition: nanostructure length (nm)
+    value: 100
+
+  - experimental_condition: nanostructure width (nm)
+    value: 50
+
+  - experimental_condition: nanostructure height (nm)
+    value: 2
+
+  - experimental_condition: number of individual staples
+    value: 200
+
+  - experimental_condition: mean staple length (bases)
+    value: 16
+
+  - experimental_condition: standard deviation of staple lengths (bases)
+    value: 2
+
+  - experimental_condition: Buffer Name
+    value: Tris-HCl
+
+  - experimental_condition: overall buffer pH
+    value: 7.4
+
+  - experimental_condition: TRIS-HCl (mM)
+    value: 50
+
+  - experimental_condition: EDTA (mM)
+    value: 1
+
+  - experimental_condition: MgCl2 Used
+    value: Yes
+
+  - experimental_condition: Magnesium Acetate Used
+    value: No
+
+  - experimental_condition: Magnesium (mM)
+    value: 12.5
+
+  - experimental_condition: NaCl (mM)
+    value: 0
+
+  - experimental_condition: Additional Notes
+    value: "Sample incubated at 4°C for 24 hours before imaging."
+

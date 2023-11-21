@@ -1,0 +1,9 @@
+# Chapter 4: Informing lab protocols using predictive machine learning models
+# Chapter 5: Further Predictive machine learning models with RevNano features
+
+This folder contains the code and resources for Chapter 4 and 5 of the thesis. Chapter 4 focuses on using the curated literature data base as data for the production of predictive machine learning models used to inform lab protocols for nucleic acid origami experiments.
+Chapter 5 focuses on producing a features using RevNano, a potentially useful way to bridge the gap between lab protocols derived from literature papers and the precise structural details of nucleic acid origami. 
+
+## Overview
+
+We have created a curated database of Nucleic Acid origami experiments, papers, text, and images. By curating a collection of data, collected from this body of literature in the form of text and images, complex analysis can be performed to derive valuable insights. The use of machine learning on these curated data sets could allow underlying patterns to be discovered and exploited. A potential application of this would be to automatically design suitable lab protocols for origami production given a target origami structure and a set of experimental constraints. (Chapter 4). This was further explored in Chapter 5, where we tried to engineer better features for the machine learning model using RevNano, a tool that can reverse-engineer the connectivity (where the staples bind to the scaffold) of the nucleic acid origami structures. The connectivity map representing an origami nanostructure can then be treated as a graph, allowing graph features to be derived, which can be used as input data for an improved predictive model. These would allow the model to get further advanced details about how exactly the nucleic acid origami is structured beyond simple features such as size and sequence content metrics.

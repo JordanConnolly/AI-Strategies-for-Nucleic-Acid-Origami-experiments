@@ -1,0 +1,7 @@
+seaborn==0.11.1
+numpy==1.19.5
+pymoo==0.4.2.1
+pandas==1.1.5
+matplotlib==3.3.4
+topsispy==0.0.1
+scikit_learn==0.24.2
